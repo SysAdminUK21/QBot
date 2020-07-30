@@ -2,7 +2,7 @@
   "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
   "manifestVersion": "1.5",
   "version": "1.0.0",
-  "id": "099b0b16-aa53-4a61-a869-bdc846ae5bfa",
+  "id": "97b4a169-1484-4089-8891-3bf2f61a2a08",
   "packageName": "qbot",
   "developer": {
     "name": "Contoso University",
@@ -25,7 +25,7 @@
   "accentColor": "#6264A7",
   "configurableTabs": [
       {
-        "configurationUrl": "https://qbotukedu-questions.azurewebsites.net/#/config?upn={upn}&tid={tid}&gid={gid}&cname={channelName}",
+        "configurationUrl": "https://qbotedufour-questions.azurewebsites.net/#/config?upn={upn}&tid={tid}&gid={gid}&cname={channelName}",
         "canUpdateConfiguration": true,
         "scopes": [
           "team"
@@ -34,7 +34,7 @@
     ],
   "bots": [
     {
-      "botId": "099b0b16-aa53-4a61-a869-bdc846ae5bfa",
+      "botId": "97b4a169-1484-4089-8891-3bf2f61a2a08",
       "scopes": [
         "team"
       ]
@@ -44,7 +44,7 @@
     {
       "entityId": "DashboardTab",
       "name": "Dashboard",
-      "contentUrl": "https://qbotukedu-dashboard.azurewebsites.net/#/home?upn={upn}&tid={tid}&gid={groupId}&uid={userObjectId}",
+      "contentUrl": "https://qbotedufour-dashboard.azurewebsites.net/#/home?upn={upn}&tid={tid}&gid={groupId}&uid={userObjectId}",
       "scopes": [ "personal" ]
     }
   ],
@@ -52,5 +52,5 @@
     "identity",
     "messageTeamMembers"
   ],
-  "validDomains": [ "qbotukedu-questions.azurewebsites.net", "qbotukedu-questions.azurewebsites.net", "qbotukedu.azurewebsites.net" ]
+  "validDomains": [ "qbotedufour-questions.azurewebsites.net", "qbotedufour-questions.azurewebsites.net", "qbotedufour.azurewebsites.net" ]
 }
