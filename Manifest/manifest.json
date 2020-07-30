@@ -5,7 +5,7 @@
   "id": "97b4a169-1484-4089-8891-3bf2f61a2a08",
   "packageName": "qbot",
   "developer": {
-    "name": "Queensland University",
+    "name": "Queensland Tech University",
     "websiteUrl": "https://www.unsw.edu.au/QBot",
     "privacyUrl": "https://www.unsw.edu.au/QBot/privacy",
     "termsOfUseUrl": "https://www.unsw.edu.au/QBot/tou"
@@ -25,7 +25,7 @@
   "accentColor": "#6264A7",
   "configurableTabs": [
       {
-        "configurationUrl": "https://qbotedufour-questions.azurewebsites.net/#/config?upn={upn}&tid={tid}&gid={gid}&cname={channelName}",
+        "configurationUrl": "https://qbotedufive-questions.azurewebsites.net/#/config?upn={upn}&tid={tid}&gid={gid}&cname={channelName}",
         "canUpdateConfiguration": true,
         "scopes": [
           "team"
@@ -44,7 +44,7 @@
     {
       "entityId": "DashboardTab",
       "name": "Dashboard",
-      "contentUrl": "https://qbotedufour-dashboard.azurewebsites.net/#/home?upn={upn}&tid={tid}&gid={groupId}&uid={userObjectId}",
+      "contentUrl": "https://qbotedufive-dashboard.azurewebsites.net/#/home?upn={upn}&tid={tid}&gid={groupId}&uid={userObjectId}",
       "scopes": [ "personal" ]
     }
   ],
@@ -52,5 +52,5 @@
     "identity",
     "messageTeamMembers"
   ],
-  "validDomains": [ "qbotedufour-questions.azurewebsites.net", "qbotedufour-questions.azurewebsites.net", "qbotedufour.azurewebsites.net" ]
+  "validDomains": [ "qbotedufive-questions.azurewebsites.net", "qbotedufive-questions.azurewebsites.net", "qbotedufive.azurewebsites.net" ]
 }
